@@ -14,7 +14,7 @@ I created a new release v0.10 based on 0.9.3 (cdh3u0), major changes include:
 - Append to HDFS with new file rotation method.
 https://github.com/yongkun/flume-0.9.3-cdh3u0
 
-##[Trift bi-directional](http://yongkun.github.io/thrift-reuse-conn)
+##[Thrift bi-directional](http://yongkun.github.io/thrift-reuse-conn)
 A simple example on how to reuse the thrift connection to transmit data bi-directionally.
 
 ##[Thrift buffered](http://yongkun.github.io/thrift/)
