@@ -37,19 +37,31 @@
 <a name="iombench" class="anchor" href="#iombench"><span class="octicon octicon-link"></span></a><a href="http://yongkun.github.io/iombench/">iombench</a>
 </h2>
 
-<p><a href="https://github.com/yongkun/iombench">Source</a></p>
+<p>A microbenchmark for storage systems or devices such as hard disk and flash SSD. 
+<a href="https://github.com/yongkun/iombench">Source</a></p>
 
 <h2>
 <a name="masterless-ack-flume" class="anchor" href="#masterless-ack-flume"><span class="octicon octicon-link"></span></a><a href="http://yongkun.github.io/flume-0.9.3-cdh3u0-rakuten/">Masterless Ack Flume</a>
 </h2>
 
-<h2>
+<p>I created a new release v0.10 based on 0.9.3 (cdh3u0), major changes include: </p>
+
+<ul>
+<li>Masterless Ack, please check <a href="https://issues.apache.org/jira/browse/FLUME-640">https://issues.apache.org/jira/browse/FLUME-640</a>, which was supposed to be merged into 0.10 if Flume was not upgraded to NG; </li>
+<li>Append to HDFS with new file rotation method.
+<a href="https://github.com/yongkun/flume-0.9.3-cdh3u0">https://github.com/yongkun/flume-0.9.3-cdh3u0</a>
+</li>
+</ul><h2>
 <a name="trift-bi-directional" class="anchor" href="#trift-bi-directional"><span class="octicon octicon-link"></span></a><a href="http://yongkun.github.io/thrift-reuse-conn">Trift bi-directional</a>
 </h2>
+
+<p>A simple example on how to reuse the thrift connection to transmit data bi-directionally.</p>
 
 <h2>
 <a name="thrift-buffered" class="anchor" href="#thrift-buffered"><span class="octicon octicon-link"></span></a><a href="http://yongkun.github.io/thrift/">Thrift buffered</a>
 </h2>
+
+<p>I created two release (thrift-0.6.2 and thrift-0.7.1) to fix some issues in early version (0.6.x, 0.7.x) which is used for Apache Flume. These issues have been fixed in later versions (0.8.x+) of original repo. Main change is the buffered input/output stream to improve the performance for on 0.6.x &amp; 0.7.x, change on 0.7.x also includes 'oneway' fix (THRIFT-1447). Two new versions are created: thrift-0.6.2 and thrift-0.7.1.</p>
         </section>
 
         <aside id="sidebar">
